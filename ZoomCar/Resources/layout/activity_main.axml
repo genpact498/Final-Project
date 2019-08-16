@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c7a2fc"
+        android:weightSum="100"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="40"
+        android:background="#ffe4c4"
+        >
+        <ImageView
+            android:layout_width="1290px"
+            android:layout_height="880px"
+            android:layout_marginTop="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal|bottom" 
+        />
+            <TextView
+        android:text="Toronto Car Rental"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+    />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f2ffff"
+        android:id="@+id/linearLayout1"
+         android:layout_weight="25" 
+        
+        >
+
+        <Button
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/button1"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:backgroundTint="#ffe4c4"
+            android:layout_marginLeft="300px"
+            android:background = "@drawable/buttonrounded"
+            android:textColor="@android:color/background_light"/>
+        <Button
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:id="@+id/button2"
+            android:text="SignUp"
+            android:layout_marginLeft="50px"
+            android:layout_gravity="center"
+            android:backgroundTint="#ffe4c4"
+             android:background = "@drawable/buttonrounded"
+            android:textColor="@android:color/background_light"
+    />
+    </LinearLayout>
+</LinearLayout>

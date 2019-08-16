@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZoomCar</string>
+    <string name="action_settings">Settings</string>
+  <string name="car_prompt">Choose a car</string>
+  <string-array name="car_array">
+    <item>Chole Kulche/$5 per plate</item>
+    <item>Dahi bhalle/ $7 per plate</item>
+    <item>Dosa /$8 per plate </item>
+    <item>Chana Bhatura/ $15 per plate</item>
+    <item>Gol Gappe/$20 per plate </item>
+  </string-array>
+</resources>
